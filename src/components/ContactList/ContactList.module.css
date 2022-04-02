@@ -1,0 +1,35 @@
+ul {
+  width: 330px;
+  padding: 0;
+}
+
+.item {
+  font-size: 20px;
+  color: antiquewhite;
+  display: flex;
+
+  justify-content: space-around;
+}
+span {
+  margin-left: 10px;
+}
+.item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.button {
+  margin-left: 12px;
+  width: 60px;
+  height: 24px;
+  background: rgb(165, 138, 138);
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transform: scale(1);
+  transition-duration: 300ms;
+}
+
+.button:hover,
+.button:focus {
+  transform: scale(1.1);
+  transition-duration: 300ms;
+}
