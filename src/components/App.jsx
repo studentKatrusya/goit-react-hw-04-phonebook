@@ -1,5 +1,5 @@
 import s from './App.module.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import ContactForm from './ContactForm';
 import Filter from './Filter';
 import ContactList from './ContactList';
